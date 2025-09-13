@@ -95,17 +95,22 @@ python -m venv venv
 
 Install required packages
 
-``` pip install requests ipwhois netaddr python-dotenv ```
+``` 
+pip install requests ipwhois netaddr python-dotenv 
+```
 
 
 Verify installation
 
-``` python netscope.py --query "8.8.8.8" ```
+``` 
+python netscope.py --query "8.8.8.8"
+```
 
 
 Optional: Check your public IP and query it:
 
-```curl ifconfig.me
+```
+curl ifconfig.me
 python netscope.py --query "YOUR_PUBLIC_IP"
 ```
 Environment Variables
